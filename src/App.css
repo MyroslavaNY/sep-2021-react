@@ -1,0 +1,18 @@
+.part1{
+    display: flex;
+}
+.users{
+    width: 30%;
+    font-weight: revert;
+    color: cadetblue;
+}
+.posts{
+    width: 60%;
+    background: aliceblue;
+    color: brown;
+}
+.comments{
+    width: 100%;
+    background: azure;
+    margin-top: 20px;
+}

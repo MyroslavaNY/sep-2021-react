@@ -1,7 +1,8 @@
-const Comment = () => {
+const Comment = (props) => {
+    const {postId, id, name, email, body} = props;
     return (
         <div>
-
+            {postId} -- {id} - {name} -- {email} -- {body}
         </div>
     )
 }
