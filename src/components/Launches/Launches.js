@@ -11,11 +11,14 @@ const Launches = () => {
     }, [])
     return (
         <div>
-            { launches.map(value => <Launch mission_name={value.mission_name}
-               launch_year={value.launch_year}
-               mission_patch_small={<img src="value.links.mission_patch_small" alt="mission_patch_small"/>}/>)}
+            {
+                launches.map(value => <Launch mission_name={value.mission_name}
+                                launch_year={value.launch_year}
+                                              mission_patch_small={value.links.mission_patch_small}
+                />)
+                }
         </div>
 
     )
-};
+}
 export default Launches;
